@@ -1,0 +1,42 @@
+.signin
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left :550px;
+    margin-right: 550px;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid;
+    background-color: bisque;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 20px;
+    border-radius: 5px ;
+    padding: 10px;
+}
+.submit
+{
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 7px 10px 7px 10px ;
+    border-radius: 6px;
+    margin: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+}

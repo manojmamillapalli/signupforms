@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css"/>
+</head>
+<body>
+    <div><h1>Sign up</h1></div>
+    <div class="signup" >
+        <form>
+            <div>
+                <label >FIRST NAME:</label><br>
+                <input type="text" placeholder="First Name" value=" " size="30"><br>
+            </div>
+           <div>
+                <label >LAST NAME:</label><br>
+                <input type="text" placeholder="" value="" size="30"><br>
+           </div>
+            <div>
+                <label >Email Id:</label><br>
+                <input type="text" placeholder="First Name" value=" " size="30"><br>
+            </div>
+            <div>
+                <label >CREATE PASSWORD:</label><br>
+                <input type="text" placeholder="" value="" size="30"><br>
+            </div>
+            <div>
+                <label >CONFORM PASSWORD:</label><br>
+                <input type="text" placeholder="First Name" value=" " size="30">
+            </div>
+            <div class="submit">
+                <button type="submit">SUBMIT</button>
+            </div>
+            <div class="nav">
+                Already Have an account? <a href="./signin.html">Sign in</a>
+            </div>
+        </form>
+    </div>
+    <script>
+        function openSignUp() {
+            document.getElementById('card').style.transform = 'rotateY(-180deg)';
+        }
+
+        function openSignIn() {
+            document.getElementById('card').style.transform = 'rotateY(0deg)';
+        }
+    </script>
+</body>
+</html>
